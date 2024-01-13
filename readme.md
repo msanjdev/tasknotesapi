@@ -1,19 +1,5 @@
+# Task Notes API
 
-A(99)
+Simple API with CRUD operations implemented in Python Flask
 
-
-34.43.56.65:8080
-
-createAppt(count, desc)
-getNextAppt()
-rescheduleAppt(newTime)
-cancelAppt()
-
-{"count": 1, "flavor": "chocolate"}
-
-{"result": "Appoint created succesfully", apptId: 99 }
-{"result": "Appoint not available" }
-
---------
-
-
+It uses a lightweight database and Alchemy to map the model to the table.
